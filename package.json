@@ -1,0 +1,38 @@
+{
+  "name": "arte7-download",
+  "version": "0.0.1",
+  "main": "lib/arte7-download.js",
+  "description": "Download video from Arte+7 to watch them later",
+  "homepage": "https://github.com/jameslafa/arte7-download",
+  "bugs": "https://github.com/jameslafa/arte7-download/issues",
+  "author": {
+    "name": "James Lafa",
+    "email": "jaaames.lf@gmail.com",
+    "url": "http://www.james-lafa.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameslafa/arte7-download"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "request": "~2.36.0",
+    "cheerio": "~0.17.0",
+    "underscore": "~1.6.0"
+  }
+}
